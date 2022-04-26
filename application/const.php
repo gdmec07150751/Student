@@ -12,6 +12,8 @@ const USER_EXIST = 41001;
 const INVALID_VERIFY_CODE = 41002;
 // 无效的请求
 const INVALID_REQUEST = 40004;
+//密码错误
+const PASSWORD_ERROR = 50001;
 
 return [
     'a' => 1,

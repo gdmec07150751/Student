@@ -16,7 +16,7 @@ namespace think;
 require __DIR__ . '/../thinkphp/base.php';
 
 //引入错误码文件
-require __DIR__ . '/application/const.php';
+require __DIR__ . '/../application/const.php';
 
 // 支持事先使用静态方法设置Request对象和Config对象
 
