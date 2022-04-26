@@ -10,3 +10,13 @@
 // +----------------------------------------------------------------------
 
 // 应用公共文件
+
+function success($data)
+{
+    return json(['return_code' => SUCCESS_CODE, 'return_msg' => 'OK', 'data' => $data]);
+}
+
+function fail($returnCode, $data)
+{
+    return json(['return_code' => $returnCode, 'return_msg' => $data, 'data' => '']);
+}
